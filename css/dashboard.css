@@ -1,0 +1,124 @@
+/* RESET */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* BODY */
+body{
+    background:#f4f6fb;
+}
+
+/* CONTAINER */
+.container{
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+}
+
+/* HEADER */
+header{
+    background:#3f51b5;
+    padding:15px 0;
+}
+
+/* FLEX HEADER */
+.header-flex{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+/* LOGO */
+.logo h1{
+    color:white;
+    font-size:22px;
+}
+
+/* NAVIGATION */
+nav ul{
+    list-style:none;
+    display:flex;
+}
+
+nav ul li{
+    margin-left:20px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    font-size:15px;
+}
+
+nav ul li a:hover{
+    text-decoration:underline;
+}
+
+/* LOGOUT BUTTON */
+.logout{
+    background:#e74c3c;
+    padding:6px 12px;
+    border-radius:4px;
+}
+
+/* SECTION */
+.section{
+    margin-top:30px;
+}
+
+/* TITLE */
+.section h2{
+    margin-bottom:20px;
+    color:#333;
+}
+
+/* CARD */
+.card{
+    background:white;
+    padding:20px;
+    border-radius:6px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+    margin-bottom:30px;
+}
+
+/* MENU BOX */
+.menu-box{
+    display:flex;
+    gap:20px;
+}
+
+/* MENU CARD */
+.menu-card{
+    flex:1;
+    background:white;
+    padding:25px;
+    border-radius:6px;
+    text-decoration:none;
+    color:#333;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+/* HOVER EFFECT */
+.menu-card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* MENU TITLE */
+.menu-card h3{
+    margin-bottom:10px;
+    color:#3f51b5;
+}
+
+/* FOOTER */
+footer{
+    margin-top:250px;
+    background:#333;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
